@@ -1,0 +1,37 @@
+{
+  "name": "arcade_solo",
+  "version": "1.0.0",
+  "description": "basic game site with a database of scores",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paden-pace/arcade_solo.git"
+  },
+  "keywords": [
+    "node",
+    "html",
+    "css",
+    "handlebars",
+    "bootstrap",
+    "javascript",
+    "express"
+  ],
+  "author": "Paden Pace",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paden-pace/arcade_solo/issues"
+  },
+  "homepage": "https://github.com/paden-pace/arcade_solo#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "fs": "0.0.1-security",
+    "mysql": "^2.13.0",
+    "path": "^0.12.7",
+    "sequelize": "^3.30.4"
+  }
+}
